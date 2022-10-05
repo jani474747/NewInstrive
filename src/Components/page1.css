@@ -1,0 +1,9 @@
+.page1{
+    display:flex;
+    justify-content:space-around;
+}
+
+.info_Div{
+text-align: center;
+}
+
