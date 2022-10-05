@@ -326,7 +326,7 @@ const Page1 = () => {
                       color="primary"
                       fullWidth
                     >
-                      Submit
+                      Continue
                     </Button>
                   </Grid>
                 </Grid>
