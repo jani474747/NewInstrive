@@ -57,11 +57,11 @@ const Page1 = () => {
       });
 
     if (
-      formData.companyname &&
-      formData.headOffice &&
-      formData.Country &&
-      formData.city &&
-      formData.contactNumber
+      !formData.companyname &&
+      !formData.headOffice &&
+      !formData.Country &&
+      !formData.city &&
+      !formData.contactNumber
     ) {
       navigate("/SecondPage");
     } else {
