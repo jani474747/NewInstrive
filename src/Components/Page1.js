@@ -141,6 +141,7 @@ const Page1 = () => {
                       type="country"
                       placeholder="Enter Country"
                       label="country"
+                      variant="outlined"
                       fullWidth
                       required
                     />
@@ -158,7 +159,7 @@ const Page1 = () => {
                           type="number"
                           label="Code"
                           placeholder="Type your message here"
-                        
+                          variant="outlined"
                         />
                       </Grid>
                     </div>
@@ -174,7 +175,7 @@ const Page1 = () => {
                           onChange={(e) => handleChange(e)}
                           placeholder="City name"
                           label="City"
-                     
+                          variant="outlined"
                           fullWidth
                           required
                         />
@@ -194,7 +195,7 @@ const Page1 = () => {
                           type="number"
                           label="Code"
                           placeholder="Type your message here"
-                        
+                          variant="outlined"
                         />
                       </Grid>
                     </div>
@@ -211,7 +212,7 @@ const Page1 = () => {
                           type="number"
                           placeholder="number"
                           label="Number"
-                         
+                          variant="outlined"
                           fullWidth
                           required
                         />
@@ -230,7 +231,7 @@ const Page1 = () => {
                       type="url"
                       placeholder="https://example.com"
                       label="URL"
-                    
+                      variant="outlined"
                       fullWidth
                       required
                     />
@@ -277,7 +278,7 @@ const Page1 = () => {
                           type="number"
                           label="Code"
                           placeholder="Type your message here"
-                          
+                          variant="outlined"
                         />
                       </Grid>
                     </div>
@@ -294,7 +295,7 @@ const Page1 = () => {
                           type="number"
                           placeholder="number"
                           label="Number"
-                          
+                          variant="outlined"
                           fullWidth
                           required
                         />
